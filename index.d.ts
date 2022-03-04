@@ -1,1 +1,1 @@
-declare module 'nodePronounce';
+declare module 'pronounce';
