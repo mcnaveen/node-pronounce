@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mskian",
+      "name": "Santhosh Veer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10300271?v=4",
+      "profile": "https://santhoshveer.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "node-pronounce",
+  "projectOwner": "mcnaveen",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
