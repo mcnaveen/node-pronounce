@@ -1,9 +1,6 @@
 # :capital_abcd: Pronounce.js  
 
-![Build](https://github.com/mcnaveen/node-pronounce/workflows/Build/badge.svg)  
-![Downloads this Week](https://img.shields.io/npm/dw/node-pronounce)  
-![Bundle Size](https://img.shields.io/bundlephobia/min/node-pronounce)
-![Version](https://img.shields.io/npm/v/node-pronounce)  
+![Build](https://github.com/mcnaveen/node-pronounce/workflows/Build/badge.svg) ![Downloads this Week](https://img.shields.io/npm/dw/node-pronounce) ![Bundle Size](https://img.shields.io/bundlephobia/min/node-pronounce) ![Version](https://img.shields.io/npm/v/node-pronounce)  
 
 ![Numify](./images/cover.png)  
 
