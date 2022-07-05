@@ -1,29 +1,28 @@
-# :capital_abcd: Pronounce.js 
+# :capital_abcd: Pronounce.js  
 
-![Build](https://github.com/mcnaveen/node-pronounce/workflows/Build/badge.svg) 
-![Downloads this Week](https://img.shields.io/npm/dw/node-pronounce) 
-![Bundle Size](https://img.shields.io/bundlephobia/min/node-pronounce)
-![Version](https://img.shields.io/npm/v/node-pronounce)
+![Build](https://github.com/mcnaveen/node-pronounce/workflows/Build/badge.svg) ![Downloads this Week](https://img.shields.io/npm/dw/node-pronounce) ![Bundle Size](https://img.shields.io/bundlephobia/min/node-pronounce) ![Version](https://img.shields.io/npm/v/node-pronounce)  
 
-![Numify](./images/cover.png)
+![Numify](./images/cover.png)  
 
-:unicorn: Simple utility to convert word to pronounceable word.
+:unicorn: Simple utility to convert word to pronounceable word.  
 
+## :package: Requirements
 
-### :package: Requirements
-Node.js 12.x LTS or 14.x (or Higher) LTS
+Node.js 14.x LTS or 16.x (or Higher) LTS
 
 ### :sparkles: Installation
 
 Install the NPM Package with the below command:
-```
+
+```sh
 npm install node-pronounce --save
-``` 
+```
 
  (or)
 
 Install with Yarn:
-```
+
+```sh
 yarn add node-pronounce
 ```
 
@@ -51,13 +50,15 @@ console.log(pronounce(word));
 ```
 
 ### :ballot_box_with_check: Example Output
-```
+
+```sh
 automaxion
 ```
 
 ### :shield: LICENSE
 
 - MIT
+
 ---
 
 #### :green_heart: Message

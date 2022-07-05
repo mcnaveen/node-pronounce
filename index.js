@@ -1,9 +1,12 @@
-const nlp = require('compromise');
-const nlpPronounce = require('compromise-pronounce');
-nlp.extend(nlpPronounce);
+import nlp from 'compromise';
+import speechPlugin from 'compromise-speech'
+nlp.plugin(speechPlugin)
 
-function pronounce(text) {
-  return nlp(text).pronounce().map(o => o.pronounce).toString();
+function pronounce(pronounceWord) {
+  let word = nlp(pronounceWord);
+  let speechWord = decodeURI(word.terms().soundsLike());
+  return speechWord;
 }
 
-module.exports.pronounce = pronounce;
+const _pronounce = pronounce;
+export { _pronounce as pronounce };
