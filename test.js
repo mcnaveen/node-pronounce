@@ -1,4 +1,4 @@
-var { pronounce } = require("./index.js");
+import { pronounce } from "./index.js";
 
 const word = "automation";
 console.log(pronounce(word));

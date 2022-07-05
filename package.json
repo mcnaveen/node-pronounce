@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mcnaveen/node-pronounce.git"
   },
+  "type": "module",
   "author": "mcnaveen <me@mcnaveen.com>",
   "license": "MIT",
   "bugs": {
@@ -20,8 +21,8 @@
   },
   "homepage": "https://github.com/mcnaveen/node-pronounce#readme",
   "dependencies": {
-    "compromise": "^13.11.4",
-    "compromise-pronounce": "^0.0.5"
+    "compromise": "^14.4.0",
+    "compromise-speech": "^0.1.0"
   },
   "keywords": [
     "pronounce.js",
