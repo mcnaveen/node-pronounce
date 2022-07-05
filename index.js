@@ -2,10 +2,10 @@ import nlp from 'compromise';
 import speechPlugin from 'compromise-speech'
 nlp.plugin(speechPlugin)
 
-function pronounce(pronounceword) {
-  let doc = nlp(pronounceword);
-  let spechword = decodeURI(doc.terms().soundsLike());
-  return spechword;
+function pronounce(pronounceWord) {
+  let word = nlp(pronounceWord);
+  let spechWord = decodeURI(word.terms().soundsLike());
+  return spechWord;
 }
 
 const _pronounce = pronounce;
