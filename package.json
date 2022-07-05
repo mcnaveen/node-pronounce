@@ -1,6 +1,6 @@
 {
   "name": "node-pronounce",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple utility to convert word to pronounceable word",
   "main": "index.js",
   "publishConfig": {
