@@ -4,8 +4,8 @@ nlp.plugin(speechPlugin)
 
 function pronounce(pronounceWord) {
   let word = nlp(pronounceWord);
-  let spechWord = decodeURI(word.terms().soundsLike());
-  return spechWord;
+  let speechWord = decodeURI(word.terms().soundsLike());
+  return speechWord;
 }
 
 const _pronounce = pronounce;
